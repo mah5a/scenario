@@ -28,7 +28,11 @@ class ExtendList(list):
     def __le__(self, other):
         return ExtendList.average(self.lst) <= ExtendList.average(other.lst)
 
+    def __ge__(self, other):
+        return ExtendList.average(self.lst) >= ExtendList.average(other.lst)
+
     def __ne__(self, other):
         return ExtendList.average(self.lst) != ExtendList.average(other.lst)
+
 
 
