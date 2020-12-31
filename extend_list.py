@@ -41,3 +41,5 @@ class TypeList(ExtendList):
 
     def __ne__(self, other):
         return self.lst[-1] != other.lst[-1]
+
+
