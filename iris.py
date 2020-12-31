@@ -14,6 +14,10 @@ def main():
     for row in csv_file:
         IRIS = ExtendList(row)
         iris_lst.append(IRIS)
+        print(iris_lst)
+
+    iris_lst = iris_lst[1:]
+    print(iris_lst)
 
 
 if __name__ == '__main__':
